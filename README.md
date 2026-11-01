@@ -2,8 +2,6 @@
 
 Course project for **Current Topics in NLP and Society**, Université Paris Cité.
 
-**Authors:** Peng CHEN and Yiwei ZUO
-
 We classify French Wiktionary word senses into 12 hypersense categories using their definitions, with or without the lemma. We compare two approaches using the 4-bit instruction-tuned model `unsloth/Qwen3-4B-Instruct-2507-bnb-4bit`:
 
 - **In-context learning (ICL):** compare demonstration counts and lemma inclusion, with an additional comparison of label-code generation and log-probability scoring.
